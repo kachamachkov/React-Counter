@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: linear-gradient(to top, #95b2dd, #7ac7e4, #7bd9d7, #a0e5bf, #d7ebab);
 }
 
 h1 {
@@ -79,8 +80,12 @@ button:focus-visible {
   height: 25px;
   align-items: center;
   justify-content: center;
-  border: 1px solid royalblue;
+  border: 2px solid royalblue;
   padding: 3px;
   margin: 0 auto;
   border-radius: 50%;
+}
+
+.wrapper {
+  background-image: linear-gradient(to left bottom, #4de96d, #9be369, #c7dc76, #e0d78e, #ebd5ab);
 }
